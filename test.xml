@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vessel - Procurement">
+    <test verbose="2" preserve-order="true"
+          name="Run On Firefox browser">
+        <parameter name="browser" value="Firefox"></parameter>
+        <classes>
+            <class name="webdriver.Vessel_Oil_UploadFile">
+            </class>
+        </classes>
+    </test>
+
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Run On Chrome browser">-->
+<!--        <parameter name="browser" value="Chrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="webdriver.Vessel_Spare_UploadFile">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

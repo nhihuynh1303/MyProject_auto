@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vessel - ">
+    <test verbose="2" preserve-order="true"
+          name="LTV_Automation">
+        <classes>
+            <class name="webdriver.Vessel_OilRequisition">
+                <methods>
+                    <include name="TC_01_LoginPage"/>
+                    <include name="TC_02_Login"/>
+                    <include name="TC_03_OpenOilRequisitionPage"/>
+                    <include name="TC_04_OpenOilSelector"/>
+                    <include name="TC_05_ItemIsSelected"/>
+                    <include name="TC_06_InputRequest"/>
+                    <include name="TC_07_InputNeedDate"/>
+                    <include name="TC_08_InputVoyage"/>
+                    <include name="TC_09_ClickOnSaveButton"/>
+                    <include name="TC_10_ClickOnSubmitButton_OpenSubmitPopup"/>
+                </methods>
+            </class>
+            <class name="webdriver.Vessel_SpareRequisition">
+                <methods>
+                    <include name="TC_01_LoginPage"/>
+                    <include name="TC_02_Login"/>
+                    <include name="TC_03_OpenSpareRequisitionPage"/>
+                    <include name="TC_04_OpenSparePartSelector"/>
+                    <include name="TC_05_SelectGroup"/>
+                    <include name="TC_06_SelectMachineryEquipment"/>
+                    <include name="TC_07_ItemIsSelected"/>
+                    <include name="TC_08_ItemIsSelected0nItemList"/>
+                    <include name="TC_09_OpenItemRemarkPopup"/>
+                    <include name="TC_10_InputRequest"/>
+                    <include name="TC_11_InputNeedDate"/>
+                    <include name="TC_12_InputVoyage"/>
+                    <include name="TC_13_ClickOnSaveButton"/>
+                    <include name="TC_14_ClickOnSubmitButton_OpenSubmitPopup"/>
+                </methods>
+            </class>
+            <class name="webdriver.Vessel_Spare_UploadFile">
+                <methods>
+                    <include name="TC_01_LoginPage"/>
+                    <include name="TC_02_Login"/>
+                    <include name="TC_03_OpenSpareRequisitionPage"/>
+                    <include name="TC_04_OpenRequisitionRemark"/>
+                    <include name="TC_05_InputTextRequisitionRemark"/>
+                    <include name="TC_06_AttachFileRequisitionRemark"/>
+                    <include name="TC_07_AttachFileRequisitionRemark"/>
+                    <include name="TC_08_OpenSparePartSelector"/>
+                    <include name="TC_09_SelectGroup"/>
+                    <include name="TC_10_SelectMachineryEquipment"/>
+                    <include name="TC_11_ItemIsSelected"/>
+                    <include name="TC_12_ItemIsSelected0nItemList"/>
+                    <include name="TC_13_InputRequest"/>
+                    <include name="TC_14_InputNeedDate"/>
+                    <include name="TC_15_InputVoyage"/>
+                    <include name="TC_16_ClickOnSaveButton"/>
+                    <include name="TC_17_ClickOnSubmitButton_OpenSubmitPopup"/>
+                    <include name="TC_18_AttachFileRequisitionRemark"/>
+                </methods>
+            </class>
+            <class name="webdriver.Vessel_StoreRequisition">
+                <methods>
+                    <include name="TC_01_LoginPage"/>
+                    <include name="TC_02_Login"/>
+                    <include name="TC_03_OpenStoreRequisitionPage"/>
+                    <include name="TC_04_OpenStoreSelector"/>
+                    <include name="TC_05_SelectGroup"/>
+                    <include name="TC_06_ItemIsSelected"/>
+                    <include name="TC_07_InputRequest"/>
+                    <include name="TC_08_InputNeedDate"/>
+                    <include name="TC_09_InputSubject"/>
+                    <include name="TC_10_InputVoyage"/>
+                    <include name="TC_11_ClickOnSaveButton"/>
+                    <include name="TC_12_ClickOnSubmitButton_OpenSubmitPopup"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
